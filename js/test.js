@@ -46,8 +46,12 @@
                         $(".upcoming").fadeIn(0.000000000001)
                         .animate({top:180}, function() {
             $(".contact").fadeIn(0.000000000001)
-            .animate({top:220})
+            .animate({top:220},function(){
+                $(".textintextNew").fadeIn(0.000000000001)
+                .animate({top:260})
+            })
                         });
+                        
                     });
                 });
             });
