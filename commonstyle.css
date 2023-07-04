@@ -1,0 +1,95 @@
+/* body Style */
+/* side Nav Style */
+body{
+    color: white;
+}
+.sidenav{
+    z-index: 2333;
+}
+.sidenav-fixed-part{
+    padding: 20px 0px;
+    color: #F9F6F6;
+    background-image: url(images\ \(2\).jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+.sidenav-fixed-part a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: none;
+    position: absolute;
+    top:500px;
+}
+.link{
+    background-color: white !important;
+    color:rgb(0, 50, 92) !important;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 50, 92);
+    width: 240px;
+    padding: 0px !important;
+    padding-left: 5px !important;
+    font-size: 16px !important;
+}
+.homeLink{
+    background-color: rgb(0, 50, 92) !important;
+    color: white !important;
+}
+.link:hover{
+    background-color: rgb(0, 50, 92) !important;
+    color:white !important;
+    border: 1px solid white;
+}
+.sidenav-fixed-part a:hover{
+    color: rgb(0, 50, 92);
+}
+.popular{
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    display: none;
+}
+
+.sidenav-footer{
+    position: absolute;
+    padding: 20px 10px;
+    bottom: 0px;
+    
+}
+.sidenav-footer p{
+    display: none;
+}
+.sidenav-footer .icons i{
+    font-size: 14px !important; 
+    margin-right: 15px;
+    display: none;
+}
+.sidenav-footer .icons i:hover{
+    color: rgb(0, 50, 92) !important;
+}
+.sidenav-slider{
+    width: 60px;
+     padding: 20px 10px;
+     background-color: white !important;
+}
+.sidenav-slider img{
+    width: 30.5px ;
+    height: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

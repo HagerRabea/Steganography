@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Video Player</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../commonstyle.css" />
+</head>
+<body>
+  <section class="sidenav position-fixed vh-100  d-flex flex-row">
+    <div class="sidenav-fixed-part   ">
+      <a class="playing-link link" id="now_playing" href="../LSB/index.html">hiding text in image Using LSB</a>
+          <a class="popular link" id="popular" href="../F5/index.html">hiding text in image Using F5</a>
+          <a class="top-rated link" id="top_rated" href="../PVD/index.html">hiding text in image Using PVD</a>
+          <!-- <a class="trending link d-none" id="trending" href="http://127.0.0.1:5000">hiding text in Video Using F5</a> -->
+          <a class="trending link " id="trending" href="../videoLSB/index7.html">hiding text in Video Using F5</a>
+          <a class="upcoming link" id="upcoming"   href="../textintextLSB/index.html">Hiding Text in text Using LSB</a>
+            <a class="contact link homeLink" href="../index.html">Bach To Home</a>
+    
+    
+    </div>
+  
+    <div class="sidenav-slider  bg-success d-flex flex-column justify-content-between ">    
+      <div class="text-center  "> <img src="../images/logo.png" class="slider-img"></div>
+      <div class="   text-center"><i class="fas fa-bars text-dark fs-4 close-icon click" id="open-icon"></i></div>
+      <div class="  text-center">
+        <i class="fas fa-basketball-ball  text-dark fs-6 d-block mb-3"></i>
+        <i class="fas fa-share-alt fs-6 text-dark d-block"></i></div>
+    </div>
+  </section>
+  <h1>
+   LSB Steganography
+  </h1>
+
+<div class="container">
+<h2> hiding text in video using LSB Algorithm</h2>
+ 
+<form>
+  <p>Enter Text File : </p>
+    <label for="myFile" class="custom-file-upload">Upload File</label>
+    <input type="file" id="myFile" />
+  <hr />
+  <br />
+  <p>Enter Video : </p>
+    <label for="video-file" class="custom-file-upload">Video File:</label>
+    <input type="file" id="video-file"><br>
+    <button type="button" onclick="playVideo()" class="custom-file-upload">Play</button>
+    <button type="button" onclick="pauseVideo()" class="custom-file-upload">Pause</button><br>
+  <!-- <button id="hideData" >Hide Data into Video</button> -->
+  <canvas id="canvas" width="300px" height="200px"></canvas><br>
+  <hr>
+  <canvas id="secret" width="300px" height="200px"></canvas>
+  <br>
+  <hr>
+  <label for="myFile" class="custom-file-upload">Upload File</label>
+
+  <input type="file" id="loadFile" />
+  <hr/>
+  <!-- Cover Image shown here after load image, and file automatically downloaded for you :) -->
+  <canvas id="coverAfter" width="500" height="200"></canvas>
+  </canvas>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+  <script src="testindex77.js"></script>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/test.js"></script>
+  
+</body>
+</html>
